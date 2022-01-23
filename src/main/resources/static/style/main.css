@@ -1,10 +1,10 @@
-﻿/*
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /*
-    Created on : 22 déc. 2018, 13:04:48
+    Created on : 22 d�c. 2018, 13:04:48
     Author     : mosab
 */
 @font-face{
@@ -22,7 +22,7 @@ body {
 }
 
 #nav a:link,#nav a:hover,#nav a:visited{
-    color: black;
+    color: #804040;
     text-decoration: none;
 }
 .leftSide{
@@ -34,16 +34,16 @@ body {
     /*background-color: red;*/
 }
 .leftSide a:link,.leftSide a:hover,.leftSide a:visited{
-    color: rgba(0, 0, 0, 0.90);
+    color: #804040;
     text-decoration: none;
 }
 .list-group a{
-    border-bottom: 1.1px solid rgba(109, 118, 126, 0.20) ;
+    border-bottom: 1.1px solid #800000 ;
 }
 
 .list-group-item:hover , .list-group-item.active{
-    background-color: rgba(0, 0, 0, 0.04);
-    color: rgba(109, 118, 126, 0.90);
+    background-color: #804040;
+    color: #808080;
 }
 
 
@@ -57,7 +57,7 @@ body {
     top:10px;
 }
 #table-content tr:hover{
-    background-color:rgba(0, 0, 0, 0.08);
+    background-color:#d09f9f;
 }
 #table-content img{
     width: 45px;
@@ -73,12 +73,12 @@ body {
 }
 button[data-toggle="collapse"]{
     background-color: #ecf0f1;
-    color: rgba(109, 118, 126, 0.95);
+    color: #808080;
 
 }
 button[aria-expanded="true"]{
     background-color: #bdc3c7;
-    color:black;
+    color: #808080;
 }
 button[data-toggle="collapse"]:hover{
     background-color: #bdc3c7;
@@ -91,7 +91,7 @@ box-shadow: none;
     font-size: 80px;
 }
 .card-color{
-    background-color: #31353D;
+    background-color: #804040;
     color: white;
 }
 .custom-select{
@@ -104,6 +104,6 @@ box-shadow: none;
 }
 
 .sidebar-menu li .active {
-    color: #16c7ff !important;
-    text-shadow: 0px 0px 10px rgba(22, 199, 255, 0.5);
+    color: #800000 !important;
+    text-shadow: 0px 0px 10px #800000;
 }

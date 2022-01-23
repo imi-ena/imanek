@@ -28,9 +28,7 @@ public class Users implements UserDetails{
 	private long userId;
 	private String username;
 	private String password;
-	private String nom;
-	private String prenom;
-	private Users user;
+	
 	@ManyToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
 	@JoinTable(name = "users_roles", joinColumns = @JoinColumn(name = "userId"), inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<Role> roles = new HashSet<>();
@@ -61,21 +59,6 @@ public class Users implements UserDetails{
 		this.userId = userId;
 	}
 
-	public String getNom() {
-		return nom;
-	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	public String getPrenom() {
-		return prenom;
-	}
-
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-	}
 
 	public String getUsername() {
 		return username;
